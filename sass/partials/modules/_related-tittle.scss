@@ -1,0 +1,26 @@
+.c-tabbar {
+	border-bottom: 0.1rem solid $light-gray;
+	margin: 4.0rem 0;	
+
+}
+
+.related__content {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	text-decoration: none;
+
+	img {
+		height: auto;
+		max-width: 100%;
+		padding: 0.2rem;
+	}
+
+	p {
+		font-size: $p-credit-size;
+	}
+}
+
+.related-items01 .related-items02{
+	flex: 0 0 32%;
+}

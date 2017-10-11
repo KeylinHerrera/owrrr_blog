@@ -1,0 +1,76 @@
+.close-menu {
+    float: right;
+    width: 8%;
+    top: 0;
+
+    @include query(600px){
+
+    width: 2%;
+
+    }
+
+}
+
+.menu-wrapper {
+    display: none;
+    background: $black;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    overflow: hidden;
+    font-family: $principal-title;
+    font-size: $h4-size;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    padding: $large-space $medium-space;
+
+    img {
+        width: 16%;
+    }
+
+    @include query(700px){
+
+        img {
+            width: 5%;
+        }
+
+    }
+}
+
+.menu-container {
+    margin-top: 130px;
+    vertical-align: middle;
+
+    ul {
+        display: table;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        line-height: 3;
+    }
+
+    a {
+        color: $white;
+        letter-spacing: 9px;
+        text-transform: uppercase;
+    }
+}
+
+.close-menu {
+
+    img {
+
+        width:8%;
+
+        @include query(600px){
+
+            width: 2%;
+
+        } 
+    }
+    
+
+}

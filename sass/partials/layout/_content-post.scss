@@ -1,0 +1,20 @@
+.post-content {
+    font-family: $general-text;
+    font-size: $p-content-size;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: $large-space 0 $large-space 0;
+
+
+    @include query(600px){
+
+	font-size: $p-content-size;
+    padding: $large-space-desktop 0 $large-space-desktop 0;
+
+    	p {
+	    	line-height:200%;
+	    	letter-spacing: 1px;
+	    }
+	
+    }
+}

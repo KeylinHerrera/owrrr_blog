@@ -1,0 +1,37 @@
+footer {
+    background-color: $black;
+    margin: 8.0rem 0 0 0;
+    text-align: center;
+
+    a {
+        font-size: 1.3rem;
+        padding: $base-space;
+    }
+
+    a, p {
+        color: $white;
+    }
+
+    img {
+        width: 6%;
+    }
+
+    @include query(600px){
+
+        img {
+            width: 1.8%;
+        }
+    
+    }
+}
+
+.logo-footer {
+    margin-bottom: 2.0rem;
+    width: 18%;
+
+    @include query(600px){
+
+    width: 5%;
+    
+    }
+}

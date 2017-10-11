@@ -1,0 +1,12 @@
+.post__header-tittle {
+    color: $white;
+    font-family: $principal-title;
+    font-size: $h1-size;
+
+    @include query(600px){
+
+    padding: 46px;
+	font-size: $h1-size-desktop;
+	
+    }
+}

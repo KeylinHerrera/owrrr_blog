@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+p {
+  color: #4C4949; }
+
+a {
+  color: #4C4949;
+  text-decoration: none; }
+
+h1 {
+  font-family: "Lora", serif; }
+
+h2, h3, h4, p, a {
+  font-family: "MontserratLight", sans-serif; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.section--wrap--large {
+  width: 100%; }
+
+.section--wrap--medium {
+  margin: 0 auto;
+  width: 90%; }
+
+.section--wrap--small {
+  width: 50%; }
+
+header {
+  padding: 3rem 2rem; }
+  header img {
+    width: 16%; }
+  @media only screen and (min-width: 700px) {
+    header img {
+      width: 5%; } }
+
+.open-menu {
+  float: right;
+  top: 0; }
+
+.post__header {
+  background-image: url(../img/portada.jpg);
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  text-align: center; }
+  @media only screen and (min-width: 600px) {
+    .post__header {
+      background-position: center top; } }
+
+.story__header-inner {
+  margin: 0 auto;
+  position: relative;
+  top: 35%; }
+
+.post-content {
+  font-family: "MontserratLight", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 3rem 0 3rem 0; }
+  @media only screen and (min-width: 600px) {
+    .post-content {
+      font-size: 1.6rem;
+      padding: 10rem 0 10rem 0; }
+      .post-content p {
+        line-height: 200%;
+        letter-spacing: 1px; } }
+
+.post-img {
+  margin: 0 auto; }
+  .post-img img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 6px;
+    max-width: 100%; }
+
+@media only screen and (min-width: 600px) {
+  .post-image-section {
+    display: flex; } }
+
+.post-credits {
+  color: #E8E8E8;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 3rem 0 3rem 0;
+  text-align: center; }
+  .post-credits img {
+    height: auto;
+    margin: 0 1.5rem; }
+
+footer {
+  background-color: #000;
+  margin: 8.0rem 0 0 0;
+  text-align: center; }
+  footer a {
+    font-size: 1.3rem;
+    padding: 1rem; }
+  footer a, footer p {
+    color: #FFF; }
+  footer img {
+    width: 6%; }
+  @media only screen and (min-width: 600px) {
+    footer img {
+      width: 1.8%; } }
+
+.logo-footer {
+  margin-bottom: 2.0rem;
+  width: 18%; }
+  @media only screen and (min-width: 600px) {
+    .logo-footer {
+      width: 5%; } }
+
+.post__header-tittle {
+  color: #FFF;
+  font-family: "Lora", serif;
+  font-size: 3.4rem; }
+  @media only screen and (min-width: 600px) {
+    .post__header-tittle {
+      padding: 46px;
+      font-size: 4.6rem; } }
+
+.post__header-story-item {
+  color: #FFF;
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  text-decoration: none; }
+  @media only screen and (min-width: 600px) {
+    .post__header-story-item {
+      font-size: 2rem; } }
+
+.close-menu {
+  float: right;
+  width: 8%;
+  top: 0; }
+  @media only screen and (min-width: 600px) {
+    .close-menu {
+      width: 2%; } }
+
+.menu-wrapper {
+  display: none;
+  background: #000;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 100;
+  overflow: hidden;
+  font-family: "Lora", serif;
+  font-size: 2.2rem;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 3rem 2rem; }
+  .menu-wrapper img {
+    width: 16%; }
+  @media only screen and (min-width: 700px) {
+    .menu-wrapper img {
+      width: 5%; } }
+
+.menu-container {
+  margin-top: 130px;
+  vertical-align: middle; }
+  .menu-container ul {
+    display: table;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 3; }
+  .menu-container a {
+    color: #FFF;
+    letter-spacing: 9px;
+    text-transform: uppercase; }
+
+.close-menu img {
+  width: 8%; }
+  @media only screen and (min-width: 600px) {
+    .close-menu img {
+      width: 2%; } }
+
+.c-tabbar {
+  border-bottom: 0.1rem solid #E8E8E8;
+  margin: 4.0rem 0; }
+
+.related__content {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  text-decoration: none; }
+  .related__content img {
+    height: auto;
+    max-width: 100%;
+    padding: 0.2rem; }
+  .related__content p {
+    font-size: 1.2rem; }
+
+.related-items01 .related-items02 {
+  flex: 0 0 32%; }
+
+.perfil_by_post {
+  border-radius: 50%;
+  width: 15%; }
+
+.intro___fotter {
+  padding: 2rem 1rem; }
+
+.c-site-footer {
+  display: block; }
+
+/*# sourceMappingURL=styles.css.map */

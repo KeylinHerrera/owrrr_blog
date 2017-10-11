@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: $dark-gray;
+}
+
+a {
+    color: $dark-gray;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: $principal-title;
+}
+
+h2, h3, h4, p, a {
+    font-family: $secondary-titles;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section--wrap--large {
+    width: 100%;
+}
+
+.section--wrap--medium {
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.section--wrap--small {
+    width:50%;
+}

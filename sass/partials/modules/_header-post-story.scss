@@ -1,0 +1,12 @@
+.post__header-story-item {
+    color: $white;
+    font-size: $a-size;
+    margin-bottom: 0;
+    text-decoration: none;
+
+    @include query(600px){
+
+    font-size: $a-size-desktop;
+	
+    }
+}
