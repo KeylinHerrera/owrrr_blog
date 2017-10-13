@@ -42,11 +42,18 @@ header {
     width: 16%; }
   @media only screen and (min-width: 700px) {
     header img {
-      width: 5%; } }
+      width: 6%; } }
 
-.open-menu {
+.open-menu, .close-menu {
   float: right;
-  top: 0; }
+  top: 0;
+  width: 6%; }
+  @media only screen and (min-width: 720px) {
+    .open-menu, .close-menu {
+      width: 3%; } }
+  @media only screen and (min-width: 720px) and (min-width: 1200px) {
+    .open-menu, .close-menu {
+      width: 2%; } }
 
 .post__header {
   background-image: url(../img/portada.jpg);
@@ -76,15 +83,15 @@ header {
       font-size: 1.6rem;
       padding: 10rem 0 10rem 0; }
       .post-content p {
-        line-height: 200%;
-        letter-spacing: 1px; } }
+        letter-spacing: 1px;
+        line-height: 200%; } }
 
 .post-img {
   margin: 0 auto; }
   .post-img img {
     display: block;
     margin: 0 auto;
-    margin-bottom: 6px;
+    margin-bottom: 6.0rem;
     max-width: 100%; }
 
 @media only screen and (min-width: 600px) {
@@ -101,6 +108,13 @@ header {
   .post-credits img {
     height: auto;
     margin: 0 1.5rem; }
+
+.perfil {
+  width: 17%;
+  border-radius: 50%; }
+  @media only screen and (min-width: 700px) {
+    .perfil {
+      width: 5%; } }
 
 footer {
   background-color: #000;
@@ -135,7 +149,7 @@ footer {
 
 .post__header-story-item {
   color: #FFF;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   margin-bottom: 0;
   text-decoration: none; }
   @media only screen and (min-width: 600px) {
@@ -165,10 +179,10 @@ footer {
   left: 0;
   padding: 3rem 2rem; }
   .menu-wrapper img {
-    width: 16%; }
+    width: 6%; }
   @media only screen and (min-width: 700px) {
     .menu-wrapper img {
-      width: 5%; } }
+      width: 2%; } }
 
 .menu-container {
   margin-top: 130px;
@@ -203,6 +217,8 @@ footer {
     height: auto;
     max-width: 100%;
     padding: 0.2rem; }
+    .related__content img:hover {
+      border: 3px solid #F15B55; }
   .related__content p {
     font-size: 1.2rem; }
 
@@ -218,5 +234,20 @@ footer {
 
 .c-site-footer {
   display: block; }
+
+.button {
+  background-color: #FFF;
+  border: 2px solid #F15B55;
+  color: #F15B55;
+  padding: 8px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 4px 2px;
+  cursor: pointer; }
+  .button:hover {
+    background-color: #F15B55;
+    color: #FFF; }
 
 /*# sourceMappingURL=styles.css.map */

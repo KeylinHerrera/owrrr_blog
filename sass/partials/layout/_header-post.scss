@@ -1,6 +1,5 @@
 .post__header {
     background-image: url(../img/portada.jpg);
-    //https://i.pinimg.com/originals/dc/39/91/dc39918f2353e3298edb17ec0e8531e0.jpg
     background-color: black;
     background-position: center;
     background-size: cover;
@@ -10,7 +9,7 @@
 
     @include query(600px){
 
-    background-position: center top;
+        background-position: center top;
 
     }
 }

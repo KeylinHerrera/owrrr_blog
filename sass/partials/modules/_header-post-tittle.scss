@@ -4,9 +4,9 @@
     font-size: $h1-size;
 
     @include query(600px){
-
-    padding: 46px;
-	font-size: $h1-size-desktop;
+    
+        padding: 46px;
+	   font-size: $h1-size-desktop;
 	
     }
 }

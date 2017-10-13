@@ -5,7 +5,7 @@
 
     @include query(600px){
 
-    width: 2%;
+        width: 2%;
 
     }
 
@@ -28,13 +28,13 @@
     padding: $large-space $medium-space;
 
     img {
-        width: 16%;
+        width: 6%;
     }
 
     @include query(700px){
 
         img {
-            width: 5%;
+            width: 2%;
         }
 
     }

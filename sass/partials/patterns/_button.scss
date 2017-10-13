@@ -1,0 +1,17 @@
+.button {
+    background-color: $white;
+    border: 2px solid $coral;
+    color: $coral;
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: $a-size;
+    margin: 4px 2px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $coral;
+        color: $white;
+    }
+}

@@ -8,13 +8,27 @@ header {
     @include query(700px){
 
     	img {
-    		width: 5%;
+    		width: 6%;
     	}
 
     }
 }
 
-.open-menu {
+.open-menu, .close-menu {
     float: right;
     top: 0;
+    width: 6%;
+
+    @include query(720px){
+
+       width: 3%;
+
+        @include query(1200px){
+
+             width: 2%;
+
+        }
+
+    }
+   
 }

@@ -11,3 +11,15 @@
         margin: 0 1.5rem;
     }
 }
+
+.perfil {
+    width: 17%;
+    border-radius: 50%;
+
+
+    @include query(700px){
+
+        width: 5%;
+
+    }
+}

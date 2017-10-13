@@ -1,8 +1,8 @@
 var openMenu = document.getElementById("openMenu");
 var closeMenu = document.getElementById("closeMenu");
+var menuWrapper = document.getElementById("menuWrapper");
 
 function toggleMenu() {
-	var menuWrapper = document.getElementById("menuWrapper");
 
 	if (menuWrapper.style.display = "none") {
 
@@ -12,5 +12,9 @@ function toggleMenu() {
 	}
 }
 
+function toggleMenuClose() {
+        menuWrapper.style.display = "none";
+}
+
 openMenu.addEventListener("click", toggleMenu);
-closeMenu.addEventListener("click", toggleMenu);
+closeMenu.addEventListener("click", toggleMenuClose);
