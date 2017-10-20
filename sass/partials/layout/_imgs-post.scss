@@ -9,12 +9,3 @@
     }
 
 }
-
-.post-image-section {
-
-	@include query(600px){
-
-		display:flex;
-	
-    }
-}
